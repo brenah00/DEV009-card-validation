@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/1603/PNG/512/pet-animal-pets-paw-dog-cat-paws_108559.png">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#donation-form">Donar</a></li>
+          <li><a href="#adoption-info">Adoptar</a></li>
+          <li><a href="#about-us">Nosotros</a></li>
+          <img id="header-logo" src="https://cdn.icon-icons.com/icons2/1603/PNG/512/pet-animal-pets-paw-dog-cat-paws_108559.png">
+          <a id="header-text">Huellitas</a>
+        </ul>
+      </nav>
+      
+    </header>
+    <main>
+
+      <div id="about-us" class="about-us-container">
+        <img id="photo1" src="https://img.freepik.com/free-photo/smiley-woman-playing-shelter-with-dog-waiting-be-adopted_23-2148682992.jpg?w=740&t=st=1687326014~exp=1687326614~hmac=89d463e2de35eb4b558778157873d6c52d65281baac96c2b4fdc127cf580304b" />
+        <div class="about-vision"><p>Somos una colectiva dedicada a salvar y darle una vida digna a aquellas HUELLITAS que viven en estado de abandono o maltrato. Los peluditos reciben alimento, resguardo y atención veterinaria. Sé parte del cambio adoptando o donando.</p></div>
+      </div><br>
+      <h1 id="adoption-info">ADOPTA</h1>
+      <p class="adoption-text">Trabajamos arduamente para que cada HUELLITA llegue a una familia amorosa y responsable, donde se le garantice salud y calidad de vida. Para más información del proceso de adopción, comunícate con nosotros para saber los requisitos necesarios.</p>
+      <br><p class="adoption-text">Correo electrónico: adopta@huellitas.com</p>
+      <br><p class="adoption-text">Teléfono: 012 - 345 - 6789</p>
+      <div class="img-container">
+      <img src="https://img.freepik.com/free-psd/cute-dog-portrait-isolated_23-2150193898.jpg?w=740&t=st=1687342737~exp=1687343337~hmac=81596cc4bd6f395dd427f6fa39bf1fa25d79625f7bd6bac71ad8276c296cbb8e" class="attributes-img" />
+      <img src="https://img.freepik.com/free-photo/young-brown-french-bulldog-playing-isolated-white-studio-wall_155003-31898.jpg?w=740&t=st=1687342845~exp=1687343445~hmac=788da32af46d7a3193d7a9fe5f61f2b9dae630409fb37d1b5a9543a3679f55d0" class="attributes-img" />
+      <img id="img-adaptation" src="https://img.freepik.com/premium-psd/scene-with-brown-white-dog_23-2150179174.jpg?w=740" class="attributes-img" />
+      </div><br>
+      <h1 id="donation-form">DONAR</h1>
+      <div class="card_information">
+        <div class="information">
+          <form>
+            <label>Cantidad a donar en moneda mexicana (MXN)</label><br>
+            <input id="donation" type="number" class="text-box"><br>
+
+            <label>Nombre del titular</label><br>
+            <input id="card-holder" type="text" class="text-box"><br>
+            
+            <label>Número de tarjeta</label><br>
+            <input id="c_number" type="text" class="text-box" pattern="[0-9]+"><br>
+            
+            <label>Fecha de vencimiento</label><br>
+            <select name="expirationMonth">
+              <option>01</option> <option>02</option> <option>03</option> <option>04</option> <option>05</option> <option>06</option>
+              <option>07</option> <option>08</option> <option>09</option> <option>10</option> <option>11</option> <option>12</option>
+            </select>
+            <select name="expirationYear">
+              <option>2023</option> <option>2024</option> <option>2025</option> <option>2026</option> <option>2027</option>
+              <option>2028</option> <option>2029</option> <option>2030</option>
+            </select><br>
+            <label>CVV</label><br>
+            <input id="card-cvv" type="text" class="text-box" pattern="[0-9]+" maxlength="3"><br>
+            <button id="sendCard">DONAR</button>
+          </form>
+        </div>    
+      </div>
+      <div class="car"></div>
+    </main>
+    <footer>
+      <p id="p-footer">Proyecto de Brenda Aguilar Hernandez</p>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
