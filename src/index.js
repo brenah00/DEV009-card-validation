@@ -4,7 +4,6 @@ const donation = document.getElementById("donation");
 const cardHolder = document.getElementById("card-holder");
 const cardCvv = document.getElementById("card-cvv");
 const button = document.getElementById("sendCard");
-let doValidation = false;
 function validate(){
   if(inputCard.value.length > 0 && cardHolder.value.length > 0 && cardCvv.value.length === 3 && donation.value.length > 0){
     if(inputCard.value.search(/[a-z]/i) === -1 && cardCvv.value.search(/[a-z]/i) === -1){
