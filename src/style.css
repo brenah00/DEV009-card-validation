@@ -1,22 +1,171 @@
 
 .card_information{
     width: 600px;
-    height: 300px;
-    background-color: aqua;
-    margin:auto;
-    margin-top: 300px;
+    height: 400px;
+    background-color: #83b8e4;
+    margin: 10px auto;   
+    font-family: 'Questrial', sans-serif;
+    position: relative;
+    border-radius: 10px;
 }
-.card{
-    width: 300px;
-    height: 180px;
-    background-color: #757575;
-    margin:auto;
-    margin-top: -400px;
+.img-container{
+    width: 900px;
+    height: 200px;
+    margin: auto;
+}
+.about-us-container > img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+
+}
+.about-vision > p{
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: justify;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    font-size: calc(2vh + 2vw);
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 .information{
     width: 500px;
+    height: 350px;
+    background-color: #83b8e4;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.text-box{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Lucida Console", Courier, monospace;
+    border: 1px solid #806161;
+}
+.adoption-text{
+    width: 80%;
+    font-family: 'Assistant', sans-serif;
+    text-align: justify;
+    margin: auto;
+    font-size: 25px;
+}
+.attributes-img {
+    width:300px;
+ 
+}
+#card-holder {
+    width: 95%;
+}
+#c_number{
+    width: 95%;
+}
+#card-cvv{
+    width: 10%;
+}
+#img-adaptation{
+    width: 200px;
     height: 200px;
-    margin:  0px auto;
-    background-color: antiquewhite;
+    margin-left: 50px;
+}
+#header-logo{
+    width: 50px;
+    padding: 5px;
+}
+#photo1{
+    width: 100%;
+    filter: brightness(0.5);
+}
+#header-text{
+    text-align: center; 
+    padding: 10px;
+    font-family: 'Cookie', cursive;
+    margin: auto;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+#p-footer{
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+    margin: auto;
+    padding: 8px;
+}
+body {
+    background-color: #FFFFFF;
+}
+button{
+    width: 30%;
+    height: 30px;
+    border-radius: 5px;
+    position: absolute;
+    top: 320px;
+    left: 170px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ce9696;
+}
+label{
+    width: 100%;
+    color: #000000;
+    padding: 2px;
+    font-size: 20px;
+}
+select{
+    width: 15%;
+    margin-right: 10px;
+    font-family: "Lucida Console", Courier, monospace;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #806161;
+    margin-bottom: 15px;
+}
+input:invalid{
+    outline: 1px solid red;
+
+}
+h1{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #328dd8;
+}
+li {
+    float: right;
+    /*font-family: Georgia, 'Times New Roman', Times, serif;*/
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 25px;
+}
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffffff;
+    color: #070707;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #328dd8;
 }
