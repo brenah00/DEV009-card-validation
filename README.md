@@ -2,15 +2,11 @@
 
 ## Índice
 
-* [1. Contexto](#1-Contexto)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Consideraciones generales](#3-consideraciones-generales)
-* [4. Hito: Criterios de aceptación mínimos del proyecto](#4-hito-criterios-de-aceptación-mínimos-del-proyecto)
-* [5. Hito Opcional: Mostrar la franquicia de tarjeta](#5-hito-opcional-mostrar-la-franquicia-de-tarjeta)
-* [6. Consideraciones técnicas](#6-consideraciones-técnicas)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Para considerar Project Feedback](#9-para-considerar-project-feedback)
+* [1. Contexto de la página](#1-Contexto-de-pagina)
+* [2. Prototipo](#2-prototipo)
+* [3. Resumen del proyecto](#3-resumen-proyecto)
+* [4. Validaciones implementadas](#4-validaciones-implementadas)
+* [5. Producto final](#5-producto-final)
 
 ***
 
@@ -50,3 +46,4 @@ En caso de que no se cumplan los puntos anteriores, la validación del número d
 ![Producto final - sección donde se valida la tarjeta](donation.png)
 
 Los mensajes se muestran con alert de JS, los cuales le indican al usuario si hacen falta campos por llenar, si la tarjeta es válida o no. 
+Con este proyecto se trabajó de primera mano con la lógica de programación para la implementación de algoritmos, de acuerdo con los objetivos de aprendizaje, se lograron cumplir la mayoría. Así como la adición del CSS lo que me permitió comprender atributos básicos y su variedad de valores. 
